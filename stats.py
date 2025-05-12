@@ -16,7 +16,6 @@ def sort_on(dict):
 
 def sorted_dict (character_count):
     sorted_list = []
-    i = 0
     for character in character_count:
         char_dict = {"char": character, "num": character_count[character]}
         sorted_list.append(char_dict)
